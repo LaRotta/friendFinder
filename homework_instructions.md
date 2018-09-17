@@ -43,6 +43,12 @@ You will use Express to handle routing.
 3. Determine the user's most compatible friend using the following as a guide:
 
    * Convert each user's results into a simple array of numbers (ex: `[5, 1, 4, 4, 5, 1, 2, 5, 4, 1]`).
+    <!-- extract the numerial values from the MySQL rows for each user and push them into an 
+    empty array -->
+
+    <!-- once you have all the arrays filled with the scores of each stored user, create a function
+    that compares the user's scores that of each friend's score -->
+   
    * With that done, compare the difference between current user's scores against those from other users, question by question. Add up the differences to calculate the `totalDifference`.
      * Example: 
        * User 1: `[5, 1, 4, 4, 5, 1, 2, 5, 4, 1]`

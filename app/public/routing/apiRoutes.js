@@ -1,5 +1,5 @@
 // load data
-// we are linking our routes to a series or data sources
+// we are linking our routes to a series of data sources
 // these data sources hold arrays of information on all possible friends
 
 var friends = require("../data/friends");
